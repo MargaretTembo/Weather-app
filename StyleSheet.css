@@ -1,0 +1,205 @@
+﻿
+html{
+    height:100%;
+    margin:0px;
+}
+
+
+
+body {
+    margin:0px;
+    height:100%;
+    width:100%;
+    background-image: url(mountains-1412683_1280.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+#container {
+     top:-28px;
+     width:100%;
+     height:100%;
+     background-color:rgba(0,0,0,0.3);
+    position: relative;
+    
+}
+
+ 
+ .heading{
+     padding: 3%;
+     text-align:center;
+     font-size:40px;
+     color:white;
+     
+ }
+
+.name {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.degree {
+    font-size: 50px;
+    text-align: center;
+    color:aliceblu;
+    padding-right:2px; 
+}
+
+.description, .minAndMax {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.city {
+     margin-left:40%;
+     font-size: 20px;
+    height:30px;
+    width:250px;
+    margin-bottom:8px;
+     
+    height:30px;
+    width:250px;
+    margin-bottom:8px;
+    border-bottom-color: whitesmoke;
+    border-bottom-style: 2px;
+     border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    
+    
+    background-color: transparent;
+    outline: none;
+    opacity:100%;
+    color: white;
+         
+
+}
+
+.but{
+    height:32px;
+    margin-right:0%;
+     border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    
+    border-radius: 10px;
+    outline:none;
+     background-color: rgba(255,255,255,0.2);
+    color: black;
+    outline-style:round;
+    
+    
+}
+
+.temp{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.sign{
+    top:100px;
+    
+}
+
+.dash{
+    text-align: center;
+    color:white;
+    font-size:20px;
+    top:10px;
+}
+
+.back{
+    height:40px;
+    width:90px;
+    font-size:20px;
+    margin-left:47%
+}
+
+
+
+@media  screen and (max-width:540px)
+{
+    .city{
+         margin-left:20%;
+     
+    height:30px;
+    width:250px;
+    margin-bottom:8px;
+    }
+    
+    #container {
+     
+     width:100vw;
+     height:100%;
+     
+    
+}
+    .but{
+        margin-left: 45%;
+    }
+    
+    }
+
+
+@media  screen and (min-width:768px) and (max-width:800px)
+{
+    .city{
+         margin-left:20%;
+        font-size: 30px;
+     
+    height:50px;
+    width:450px;
+    margin-bottom:15px;
+    }
+    
+    #container {
+     
+     width:100vw;
+     height:100%;
+    margin-top: -2%;
+     
+    
+              }
+    .but{
+        margin-left: 45%;
+        height:50px;
+        font-size: 30px;
+        }
+    
+    .heading{
+     padding: 3%;
+     font-size: 60px;
+     
+ }
+    .name{
+        font-size: 60px;
+    }
+    
+    .degree{
+        font-size:90px;
+    }
+    
+    .dash{
+        font-size: 60px;
+    }
+    
+    .description, .minAndMax {
+    font-size: 50px;
+}
+    
+    .sign{
+        font-size: 90px;
+    }
+    .temp{
+        font-size: 90px;
+    }
+
+    }
+
+
